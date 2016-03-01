@@ -8,3 +8,6 @@ rtmpgw
 rtmpsrv
 rtmpsuck
 obj
+
+.DS_Store
+libs

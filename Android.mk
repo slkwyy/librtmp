@@ -4,7 +4,7 @@ subdirs := $(addprefix $(LOCAL_PATH)/,$(addsuffix /Android.mk, \
 		librtmp \
 	))
 
-#SSL := ~/SSL
+SSL := ../../../openssl/android/OpenSSL-for-Android/
 ifndef SSL
 $(error "You must define SSL before starting")
 endif

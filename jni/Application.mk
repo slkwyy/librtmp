@@ -1,4 +1,4 @@
-NDK_TOOLCHAIN_VERSION := 4.8
-APP_ABI := all
+NDK_TOOLCHAIN_VERSION := 4.9
+APP_ABI := armeabi-v7a arm64-v8a
 APP_PROJECT_PATH := $(shell pwd)
 APP_BUILD_SCRIPT := $(APP_PROJECT_PATH)/Android.mk
