@@ -1,4 +1,5 @@
 NDK_TOOLCHAIN_VERSION := 4.9
-APP_ABI := armeabi-v7a arm64-v8a
+APP_PLATFORM := android-16
+APP_ABI := armeabi-v7a arm64-v8a x86
 APP_PROJECT_PATH := $(shell pwd)
 APP_BUILD_SCRIPT := $(APP_PROJECT_PATH)/Android.mk
