@@ -2,7 +2,7 @@ VERSION=v2.4
 
 prefix=/usr/local
 
-CC=$(CROSS_COMPILE)gcc
+CC=$(CROSS_COMPILE)clang
 LD=$(CROSS_COMPILE)ld
 
 SYS=posix
